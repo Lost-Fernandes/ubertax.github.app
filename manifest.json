@@ -1,0 +1,21 @@
+{
+  "name": "Uber Taxímitro",
+  "short_name": "Pascoal",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff9e6",
+  "theme_color": "#f5b800",
+  "description": "Site informativo da Uber Taxímitro.",
+  "icons": [
+    {
+      "src": "ubertaxímetro.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "ubertaxímetro.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

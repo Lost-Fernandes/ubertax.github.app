@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="ubertaxímetro.jpg" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🚗UberTaxímetro</h1>
+
+    <div class="config">
+        <label>Valor por KM (R$): 
+            <input type="number" id="valorKM" value="0.50" step="0.01">
+        </label>
+    </div>
+
+    <div class="display">
+        <p><strong>KM Percorridos:</strong> <span id="km">0.00</span> km</p>
+        <p><strong>Valor Total:</strong> R$ <span id="valor">0.00</span></p>
+    </div>
+
+    <div class="botoes">
+        <button onclick="iniciar()">Iniciar</button>
+        <button onclick="parar()">Parar</button>
+        <button onclick="zerar()">Zerar</button>
+    </div>
+
+    <script src="app.js"></script>
+
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log("Service Worker registrado."))
+        .catch((error) => console.log("Erro ao registrar Service Worker:", error));
+    }
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
