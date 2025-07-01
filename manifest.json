@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff9e6",
-  "theme_color": "#f5b800",
+  "theme_color": "##000000",
   "description": "Site informativo da Uber Taxímitro.",
   "icons": [
     {
