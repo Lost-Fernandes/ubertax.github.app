@@ -3,7 +3,7 @@
   "short_name": "Taxímitro",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#fff9e6",
+  "background_color": "#000000",
   "theme_color": "##000000",
   "description": "Site informativo da Uber Taxímitro.",
   "icons": [
