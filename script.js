@@ -64,3 +64,4 @@ function calcularDistancia(lat1, lon1, lat2, lon2) {
     const distancia = R * c;
     return distancia;
 }
+
